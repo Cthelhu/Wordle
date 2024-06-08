@@ -1,5 +1,6 @@
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -64,6 +65,17 @@ body {
 }
 
 
+.red-keys{
+    background-color: red;
+    color: white;
+}
+
+
+.green-keys{
+    background-color: green;
+    color: black;
+}
+
 /*Teclas "Enter y Delete"*/
 .action-key {
     width: 60px;
@@ -89,3 +101,23 @@ body {
     color: white;
 }
 
+
+.reset-button {
+    padding: 10px;
+    border: none;
+    background-color: #3f7ad3;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.reset-button:hover{
+    background-color: #284679;
+    color: white; 
+}
